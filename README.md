@@ -1,5 +1,5 @@
 # LCD-library-for-AVR
-A Liquid Crystal Display(LCD) library for AVR microcontrollers by Microchip. This library has been tested on ATmega 8 and ATmega328p mcu with a 16*2 lcd.
+A Liquid Crystal Display(LCD) library for AVR microcontrollers by Microchip. This library has been tested on ATmega8 and ATmega328p mcu with a 16*2 lcd.
 A list of supported display is given below. Check out the [examples](/examples) directory, contains example code regarding various feaures, to get you started with this library.
 
 # How to use:
