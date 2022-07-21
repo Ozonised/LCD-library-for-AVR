@@ -3,9 +3,9 @@
 This library has been tested on ATmega 8 and ATmega328p mcu with a 16*2 lcd. 
 
 ## Supported displays: 
-It supports 8*1, 8*2 and 16*2 lcd. 
+It supports 8 * 1, 8 * 2 and 16 * 2 lcd. 
 ### Note:
-It does not support 20*4 character lcds yet.
+It does not support 20 * 4 character lcds yet.
 
 # Features:
 ## 1. Printing Characters:
