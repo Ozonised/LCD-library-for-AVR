@@ -3,8 +3,9 @@ A Liquid Crystal Display(LCD) library for 8 * 1, 8 * 2 and 16 * 2 lcd for AVR mi
 A list of supported display is given below. Check out the [examples](/examples) directory, contains example code on the various features, to get you started with this library.
 
 # How to use:
-1. Include the liquidCrystalDisplay.h and liquidCrystalDisplay.c in your project directory.
-2. 
+1. Include the liquidCrystalDisplay.h and liquidCrystalDisplay.c in your project directory. Alternatively, you can add the liquidCrystalDisplay.h and liquidCrystalDisplay.c as link in your project directory(this what I did).
+2. Click on the hammer icon and change ``` Confrigrations: All Confrigrations ```.
+3.
 
 ## Supported displays: 
 It supports 8 * 1, 8 * 2 and 16 * 2 lcd. 
