@@ -9,7 +9,7 @@ A list of supported display is given below. Check out the [examples](/examples) 
 
 ![hammer](Images/hammer.jpg) ![All confrigrations](Images/allConfrigrations.jpg)
 
-3. Under ``` Toolchains->AVR/GNU C Compiler->Symbols ```, add the system frequency ``` F_CPU=16000000L ```. 
+3. Under ``` Toolchains->AVR/GNU C Compiler->Symbols ```, add the system frequency ``` F_CPU=16000000L ``` (in my case it's 16MHz). 
 
 ![F_CPU](Images/preprocessor.png)
 
