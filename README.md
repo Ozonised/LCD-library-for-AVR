@@ -1,5 +1,5 @@
 # LCD-library-for-AVR
-![LCD](Images/Thumbnail.jpg)
+![LCD](/Images/Thumbnail.jpg)
 A Liquid Crystal Display(LCD) library for 8 * 1, 8 * 2 and 16 * 2 lcd for AVR microcontrollers by Microchip. This library has been tested on ATmega8 and ATmega328p mcu with a 16*2 lcd.
 A list of supported display is given below. Check out the [examples](/examples) directory, contains example code on the various features, to get you started with this library.
 
@@ -8,11 +8,11 @@ A list of supported display is given below. Check out the [examples](/examples) 
 
 2. Click on the hammer icon and change ``` Confrigrations: All Confrigrations ```. 
 
-![hammer](Images/hammer.jpg) ![All confrigrations](Images/allConfrigrations.jpg)
+![hammer](/Images/hammer.jpg) ![All confrigrations](/Images/allConfrigrations.jpg)
 
 3. Under ``` Toolchains->AVR/GNU C Compiler->Symbols ```, add the system frequency ``` F_CPU=16000000L ``` (in my case it's 16MHz). 
 
-![F_CPU](Images/preprocessor.png)
+![F_CPU](/Images/preprocessor.png)
 
 ## Done! That's it.
 
