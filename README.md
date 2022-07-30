@@ -4,8 +4,15 @@ A list of supported display is given below. Check out the [examples](/examples) 
 
 # How to use:
 1. Include the liquidCrystalDisplay.h and liquidCrystalDisplay.c in your project directory. Alternatively, you can add the liquidCrystalDisplay.h and liquidCrystalDisplay.c as link in your project directory(this what I did).
-2. Click on the hammer icon ![hammer](Images/hammer.jpg) and change ``` Confrigrations: All Confrigrations ```.
-3.
+
+2. Click on the hammer icon and change ``` Confrigrations: All Confrigrations ```. 
+
+![hammer](Images/hammer.jpg) ![All confrigrations](Images/allConfrigrations.jpg)
+
+3. Under ``` Toolchains->AVR/GNU C Compiler->Symbols ```, add the system frequency ``` F_CPU=16000000L ```. 
+
+![F_CPU](Images/preprocessor.png)
+
 
 ## Supported displays: 
 It supports 8 * 1, 8 * 2 and 16 * 2 lcd. 
