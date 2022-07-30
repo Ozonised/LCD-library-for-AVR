@@ -4,7 +4,7 @@ A list of supported display is given below. Check out the [examples](/examples) 
 
 # How to use:
 1. Include the liquidCrystalDisplay.h and liquidCrystalDisplay.c in your project directory. Alternatively, you can add the liquidCrystalDisplay.h and liquidCrystalDisplay.c as link in your project directory(this what I did).
-2. Click on the hammer icon and change ``` Confrigrations: All Confrigrations ```.
+2. Click on the hammer icon ![hammer](Images/hammer.jpg) and change ``` Confrigrations: All Confrigrations ```.
 3.
 
 ## Supported displays: 
