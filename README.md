@@ -13,6 +13,7 @@ A list of supported display is given below. Check out the [examples](/examples) 
 
 ![F_CPU](Images/preprocessor.png)
 
+## Done! That's it.
 
 ## Supported displays: 
 It supports 8 * 1, 8 * 2 and 16 * 2 lcd. 
