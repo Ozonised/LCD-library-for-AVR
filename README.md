@@ -1,25 +1,7 @@
 # LCD-library-for-AVR
 ![LCD](/Images/Thumbnail.jpg)
-A Liquid Crystal Display(LCD) library for 8 * 1, 8 * 2 and 16 * 2 lcd for AVR microcontrollers by Microchip. This library has been tested on ATmega8 and ATmega328p mcu with a 16*2 lcd.
+A Liquid Crystal Display(LCD) library for 8 * 1, 8 * 2 and 16 * 2 lcd for AVR microcontrollers by Microchip. This library runs the LCD is 4-bit mode. It has been tested on ATmega8 and ATmega328p mcu with a 16*2 lcd.
 A list of supported display is given below. Check out the [examples](/examples) directory, contains example code on the various features, to get you started with this library.
-
-# How to use:
-1. Include the liquidCrystalDisplay.h and liquidCrystalDisplay.c in your project directory. Alternatively, you can add the liquidCrystalDisplay.h and liquidCrystalDisplay.c as link in your project directory(this what I did).
-
-2. Click on the hammer icon and change ``` Confrigrations: All Confrigrations ```. 
-
-![hammer](/Images/hammer.jpg) ![All confrigrations](/Images/allConfrigrations.jpg)
-
-3. Under ``` Toolchains->AVR/GNU C Compiler->Symbols ```, add the system frequency ``` F_CPU=16000000L ``` (in my case it's 16MHz). 
-
-![F_CPU](/Images/preprocessor.png)
-
-## Done! That's it.
-
-## Supported displays: 
-It supports 8 * 1, 8 * 2 and 16 * 2 lcd. 
-### Note:
-It does not support 20 * 4 character lcds yet.
 
 # Features:
 This library supports:
@@ -43,3 +25,22 @@ This library supports:
 
 ## Note: 
 Details on how to use the functions listed above along with code examples can be found in the [examples](/examples) directory.
+
+## Supported displays: 
+It supports 8 * 1, 8 * 2 and 16 * 2 lcd. 
+### Note:
+It does not support 20 * 4 character lcds yet.
+
+# How to use:
+1. Include the liquidCrystalDisplay.h and liquidCrystalDisplay.c in your project directory. Alternatively, you can add the liquidCrystalDisplay.h and liquidCrystalDisplay.c as link in your project directory(this what I did).
+
+2. Click on the hammer icon and change ``` Confrigrations: All Confrigrations ```. 
+
+![hammer](/Images/hammer.jpg) ![All confrigrations](/Images/allConfrigrations.jpg)
+
+3. Under ``` Toolchains->AVR/GNU C Compiler->Symbols ```, add the system frequency ``` F_CPU=16000000L ``` (in my case it's 16MHz). 
+
+![F_CPU](/Images/preprocessor.png)
+
+4. Now, add ``` #include "LiquidCrytalDisplay.h" ``` in your project file.
+## Done! That's it.
