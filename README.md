@@ -1,6 +1,6 @@
 # LCD-library-for-AVR
 ![LCD](/Images/Thumbnail.jpg)
-A Liquid Crystal Display(LCD) library for 8 * 1, 8 * 2 and 16 * 2 lcd for AVR microcontrollers by Microchip. This library runs the LCD is 4-bit mode. It has been tested on ATmega8 and ATmega328p mcu with a 16*2 lcd.
+A Liquid Crystal Display(LCD) library for 8 * 1, 8 * 2 and 16 * 2 lcd for AVR microcontrollers by Microchip. This library drives the LCD in 4-bit mode. 
 A list of supported display is given below. Check out the [examples](/examples) directory, contains example code on the various features, to get you started with this library.
 
 # Features:
@@ -44,3 +44,6 @@ It does not support 20 * 4 character lcds yet.
 
 4. Now, add ``` #include "LiquidCrytalDisplay.h" ``` in your project file.
 ## Done! That's it.
+
+## Note:
+This library has been tested with a 16 * 2 lcd on the ATmega 8A and ATmega328p.
